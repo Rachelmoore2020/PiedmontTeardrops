@@ -18,14 +18,18 @@
         
         <div class="row">
             <div class="col">
-                    <img src="images/mochaTan.png" alt="mocha Tan Teardrop">
+                    <img src="images/ultraWhite.png" id="getImage" alt="Teardrop camper">
             </div>
             <div class="col">
                 
                 <button type="button" class="btn btn-glossWhite">Gloss White</button>
-                <button type="button" class="btn btn-ultraWhite">Ultra White</button>
-<button type="button" class="btn mochaTan" style= "background-color: #d2af79;">Mocha Tan</button>
-<button type="button" class="btn brightRed" style= "background-color: #d82131; color:antiquewhite">Bright Red</button>
+
+                <button type="button" class="btn btn-ultraWhite" onclick="ultraWhite()" 
+                class="btn mochaTan" style= "background-color: #faf7f8;">Ultra White</button>
+                
+                <button type="button" onclick="Mocha()" class="btn" style= "background-color: #d2af79;">Mocha Tan</button>
+                
+                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #d82131; color:antiquewhite">Bright Red</button>
 
 
             </div>
@@ -39,5 +43,16 @@
     </div>;
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
+    <script>
+        function Mocha() {
+           document.getElementById('getImage').src="images/mochaTan.png"
+        }    
+        function brightRed() {
+           document.getElementById('getImage').src="images/brightRed.png"
+        }   
+        function ultraWhite() {
+           document.getElementById('getImage').src="images/ultraWhite.png"
+        }   
+    </script>
 </body>
 </html>
