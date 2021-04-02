@@ -1,0 +1,25 @@
+.header {
+    height: 130px;
+    padding: 60px;
+}
+    
+    h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+}
+
+.btn {
+width: 125px;
+margin-bottom: 5px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.btn-glossWhite {
+    border: 1px solid;
+    margin-bottom: 5px;
+
+}
+.btn-ultraWhite {
+    border: 1px solid;
+}
