@@ -13,6 +13,10 @@
 width: 125px;
 margin-bottom: 5px;
 font-family: 'Montserrat', sans-serif;
+font-size: 10px;
+height: 40px;
+border-radius: 10px;
+margin: 5px, 10px, 5px, 5px;
 }
 
 .btn-glossWhite {
@@ -22,4 +26,18 @@ font-family: 'Montserrat', sans-serif;
 }
 .btn-ultraWhite {
     border: 1px solid;
+}
+
+.desc {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    height: 40px;
+    width: 125px;
+    display: block;
+
+}
+
+#typeUnder {
+    text-align: center
 }
