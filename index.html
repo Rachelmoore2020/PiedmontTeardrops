@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <title>Colors</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles2.css"> 
 </head>
 <body>
     <div class="container">
@@ -17,76 +17,60 @@
         </div>
         
         <div class="row">
-            <div class="col">
-                    <img src="images/ultraWhite.png" id="getImage" alt="Teardrop camper">
-            </div>
-            <div class="col">
+                    <img src="images/hollowTeardrop.png" id="getImage" alt="Teardrop camper" style="width: 50vw;">
+             
+            <div class="cols">
+                <button type="button" onclick="color(this)" class="btn blk glossWhite" style= "background-color: #f4f6f6;">Gloss White</button>
+                <button type="button" onclick="color(this)" class="btn blk ultraWhite" style= "background-color: #faf7f8;">Ultra White</button>
+                <button type="button" onclick="color(this)" class="btn blk" style= "background-color: #d2af79; ">Mocha Tan</button>
+                <button type="button" onclick="color(this)" class="btn blk Light Gray" style= "background-color: #c4c7c6;">Light Gray</button>
+                <button type="button" onclick="color(this)" class="btn Medium Gray" style= "background-color: #8e8d87;">Medium Gray</button>
+                <button type="button" onclick="color(this)" class="btn Dark Gray" style= "background-color: #666762;">Dark Gray</button>
+                <button type="button" onclick="color(this)" class="btn Matte Black" style= "background-color: #404040;">Matte Black</button>
+                <button type="button" onclick="color(this)" class="btn Gloss Black" style= "background-color: #0f1016;">Gloss Black</button>
+                <button type="button" onclick="color(this)" class="btn Ivy Green" style= "background-color: #043f19;">Ivy Green</button>
+                <button type="button" onclick="color(this)" class="btn blk Ivory" style= "background-color: #f1ebbd;">Ivory</button>
+                <button type="button" onclick="color(this)" class="btn blk Sandstone" style= "background-color: #e6e1bc;">Sandstone</button>
+                <button type="button" onclick="color(this)" class="btn blk Eggshell" style= "background-color: #f9f0df;">Eggshell</button>
+                <button type="button" onclick="color(this)" class="btn Charcoal Gray" style= "background-color: #333333;">Charcoal Gray</button>
+                <button type="button" onclick="color(this)" class="btn Light Pewter" style= "background-color: #969696;">Light Pewter</button>
+                <button type="button" onclick="color(this)" class="btn Dark Bronze" style= "background-color: #3b3d23;">Dark Bronze</button>
+                <button type="button" onclick="color(this)" class="btn Medium Bronze" style= "background-color: #55593f;">Medium Bronze</button>
+                <button type="button" onclick="color(this)" class="btn Classic Green" style= "background-color: #003b19;">Classic Green</button>
+                <button type="button" onclick="color(this)" class="btn Bright Green" style= "background-color: #009748;">Bright Green</button>
+                <button type="button" onclick="color(this)" class="btn Pepsi Blue" style= "background-color: #0f83ae;">Pepsi Blue</button>
+                <button type="button" onclick="color(this)" class="btn Heron Blue" style= "background-color: #003c65;">Heron Blue</button>
+                <button type="button" onclick="color(this)" class="btn Chevron Blue" style= "background-color: #00548a;">Chevron Blue</button>
+                <button type="button" onclick="color(this)" class="btn Hunter Red" style= "background-color: #af1839;">Hunter Red</button>
+                <button type="button" onclick="color(this)" class="btn Burgundy" style= "background-color: #721718;">Burgundy</button>
+                <button type="button" onclick="color(this)" class="btn brightRed" style= "background-color: #d82131;">Bright Red</button>
+                <button type="button" onclick="color(this)" class="btn blk Yellow" style= "background-color: #fbea13;">Yellow</button>
+                <button type="button" onclick="color(this)" class="btn blk Bright Yellow" style= "background-color: #f8e216;">Bright Yellow</button>
+                <button type="button" onclick="color(this)" class="btn blk Caution Yellow" style= "background-color: #fee30f;">Caution Yellow</button>
+                <button type="button" onclick="color(this)" class="btn Autumn Brown" style= "background-color: #441c03;">Autumn Brown</button>
+                <button type="button" onclick="color(this)" class="btn Redwood" style= "background-color: #591911;">Redwood</button>
+                <button type="button" onclick="color(this)" class="btn Mansard Brown" style= "background-color: #2d1e16;">Mansard Brown</button>
+                <button type="button" onclick="color(this)" class="btn brightRed" style= "background-color: #291e19;">Royal Brown</button>
                 
-                <!-- <button type="button" class="btn btn-glossWhite">Gloss White</button> -->
-                <div class="desc"><button type="button" onclick="Mocha()" class="btn" style= "background-color: #d2af79;"></button><div id="typeUnder"></div>Mocha Tan</div></div>
-
-                <button type="button" class="btn btn-ultraWhite" onclick="ultraWhite()" 
-                class="btn mochaTan" style= "background-color: #f4f6f6;">Gloss White</button>
-
-                <button type="button" class="btn btn-ultraWhite" onclick="ultraWhite()" 
-                class="btn mochaTan" style= "background-color: #faf7f8;">Ultra White</button>
-                
-                
-                
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #c4c7c6; color:antiquewhite">Light Gray</button>
-
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #8e8d87; color:antiquewhite">Medium Gray</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #666762; color:antiquewhite">Dark Gray</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #404040; color:antiquewhite">Matte Black</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #0f1016; color:antiquewhite">Gloss Black</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #043f19; color:antiquewhite">Ivy Green</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #f1ebbd; color:antiquewhite">Ivory</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #e6e1bc; color:antiquewhite">Sandstone</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #f9f0df; color:antiquewhite">Eggshell</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #333333; color:antiquewhite">Charcoal Gray</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #969696; color:antiquewhite">Light Pewter</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #3b3d23; color:antiquewhite">Dark Bronze</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #55593f; color:antiquewhite">Medium Bronze</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #003b19; color:antiquewhite">Classic Green</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #009748; color:antiquewhite">Bright Green</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #0f83ae; color:antiquewhite">Pepsi Blue</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #003c65; color:antiquewhite">Heron Blue</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #00548a; color:antiquewhite">Chevron Blue</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #af1839; color:antiquewhite">Hunter Red</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #721718; color:antiquewhite">Burgundy</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #d82131; color:antiquewhite">Bright Red</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #fbea13; color:antiquewhite">Yellow</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #f8e216; color:antiquewhite">Bright Yellow</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #fee30f; color:antiquewhite">Caution Yellow</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #441c03; color:antiquewhite">Autumn Brown</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #591911; color:antiquewhite">Redwood</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #2d1e16; color:antiquewhite">Mansard Brown</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #291e19; color:antiquewhite">Royal Brown</button>
-                <button type="button" onclick="brightRed()" class="btn brightRed" style= "background-color: #dd4c29; color:antiquewhite">Orange</button>
-                
-
-
+                <button type="button" onclick="color(this)" class="btn Orange" style= "background-color: #dd4c29; color:antiquewhite">Orange</button>
+            <!-- </div> -->
             </div>
           </div>
          
           </div>
 
-
-
-
     </div>;
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
     <script>
-        function Mocha() {
-           document.getElementById('getImage').src="images/mochaTan.png"
-        }    
-        function brightRed() {
-           document.getElementById('getImage').src="images/brightRed.png"
-        }   
-        function ultraWhite() {
-           document.getElementById('getImage').src="images/ultraWhite.png"
-        }   
+       
+        function color(z) {
+            var a = getComputedStyle(z);
+            var b = a.backgroundColor;
+            document.getElementById('getImage').style.backgroundColor=b;
+        }
+
+
     </script>
 </body>
 </html>
