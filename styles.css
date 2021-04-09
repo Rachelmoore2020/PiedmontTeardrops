@@ -1,6 +1,6 @@
 .header {
-    height: 130px;
-    padding: 60px;
+    height: 110px;
+    padding: 20px;
 }
     
     h1 {
@@ -8,36 +8,43 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 3vw;
 }
-
 .btn {
-width: 125px;
-margin-bottom: 5px;
-font-family: 'Montserrat', sans-serif;
-font-size: 10px;
-height: 40px;
-border-radius: 10px;
-margin: 5px, 10px, 5px, 5px;
-}
-
-.btn-glossWhite {
-    border: 1px solid;
+    width: 125px;
     margin-bottom: 5px;
-
-}
-.btn-ultraWhite {
-    border: 1px solid;
-}
-
-.desc {
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     height: 40px;
-    width: 125px;
-    display: block;
+    border-radius: 10px;
+    margin: 5px, 10px, 5px, 5px;
+    color: white;
+    }
 
+    
+.glossWhite {
+    border: 1px solid;
+    color: black;
+}
+.ultraWhite {
+    border: 1px solid;
+    color: black;
 }
 
-#typeUnder {
-    text-align: center
+.blk {
+    color: black;
+}
+
+.blk:hover {
+    color: lightgray;
+}
+
+.cols {
+    margin-top: 0px;
+}
+#getImage {
+    margin: 0 auto;
+    padding: 0px;
+}
+.row {
+    display: flex;
+    justify-content: center;
 }
