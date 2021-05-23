@@ -90,6 +90,7 @@ img {
         position: x y;
     }
 
+<<<<<<< HEAD
 }
 /* Add a black background color to the top navigation */
 
@@ -174,4 +175,6 @@ img {
 
 .navItems {
     margin-top: 45px;
+=======
+>>>>>>> 496060ee14e90286780f445ceb07a85e7926e282
 }
